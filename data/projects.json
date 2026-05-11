@@ -35,5 +35,18 @@
       "CSS",
       "JavaScript"
     ]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A curated digital space that serves as your professional storefront, showcasing your best work, skills, and unique personal brand to potential clients or employers.",
+    "image": "assets/projects/portfolio_website.jpg",
+    "github": "https://github.com/JohnNwaokolo/testportfolio",
+    "live": "johnnwaokolo.github.io/testportfolio",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript", 
+      "JSON"
+    ]
   }
 ]
