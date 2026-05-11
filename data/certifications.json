@@ -28,5 +28,11 @@
     "issuer": "Codingal",
     "date": "February, 2025.",
     "image": "assets/certifications/advanced_frontenddev_cert.png"
+  },
+  {
+    "name": "Microsoft Office Specialist: Word Associate (Microsoft 365 Apps)",
+    "issuer": "Microsoft",
+    "date": "November, 2025.",
+    "image": "assets/certifications/word_cert.png"
   }
 ]
