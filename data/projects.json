@@ -26,7 +26,7 @@
   },
   {
     "title": "Simple Bank App",
-    "description": "A simple bank app that tracks deposits and withdraals. It also tracks transaction history in rea time.",
+    "description": "A simple bank app that tracks deposits and withdraals. It also tracks transaction history in real time.",
     "image": "assets/projects/bank_app.jpg",
     "github": "https://github.com/JohnNwaokolo/codingal-codes/tree/e9aaa5fbcd550e699208214b6561f8df596e91a7/Projects%20ON%20HTML%2C%20CSS%20and%20Bootstarap/Bank%20App",
     "live": "https://example.com",
