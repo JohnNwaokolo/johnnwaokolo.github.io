@@ -1,30 +1,5 @@
 [
   {
-    "title": "AI Resume Analyzer",
-    "description": "NLP-powered system that evaluates resumes using intelligent scoring models.",
-    "image": "assets/projects/ai-resume.jpg",
-    "github": "https://github.com/JohnNwaokolo",
-    "live": "https://example.com",
-    "stack": [
-      "Python",
-      "Flask",
-      "AI",
-      "OpenAI API"
-    ]
-  },
-  {
-    "title": "TaskFlow",
-    "description": "Smart productivity management interface for task optimization.",
-    "image": "assets/projects/taskflow.jpg",
-    "github": "https://github.com/JohnNwaokolo",
-    "live": "https://example.com",
-    "stack": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  },
-  {
     "title": "Simple Bank App",
     "description": "A simple bank app that tracks deposits and withdraals. It also tracks transaction history in real time.",
     "image": "assets/projects/bank_app.jpg",

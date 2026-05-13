@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>System Initialization</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Space Grotesk', sans-serif;
+      background:#030712;
+      color:white;
+      overflow:hidden;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+    }
+
+    /* Animated Grid Background */
+    .grid{
+      position:absolute;
+      inset:0;
+      background-image:
+        linear-gradient(rgba(0,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,255,0.06) 1px, transparent 1px);
+      background-size:50px 50px;
+      animation:moveGrid 12s linear infinite;
+      z-index:0;
+    }
+
+    @keyframes moveGrid{
+      from{
+        transform:translateY(0);
+      }
+      to{
+        transform:translateY(50px);
+      }
+    }
+
+    /* Glow Effect */
+    .glow{
+      position:absolute;
+      width:500px;
+      height:500px;
+      background:radial-gradient(circle, rgba(0,255,255,0.15), transparent 70%);
+      filter:blur(40px);
+      z-index:0;
+    }
+
+    .container{
+      position:relative;
+      z-index:2;
+      text-align:center;
+      padding:20px;
+      max-width:900px;
+      width:100%;
+    }
+
+    .system-status{
+      font-family:'JetBrains Mono', monospace;
+      color:#00ffd5;
+      font-size:14px;
+      letter-spacing:3px;
+      margin-bottom:20px;
+      opacity:0.8;
+    }
+
+    h1{
+      font-size:clamp(3rem, 8vw, 6rem);
+      line-height:1;
+      margin-bottom:15px;
+      text-transform:uppercase;
+      font-weight:700;
+    }
+
+    .gradient{
+      background:linear-gradient(90deg,#00f0ff,#7a5cff,#ff4fd8);
+      /* webkit-background-clip: text; */
+      -webkit-text-fill-color:transparent;
+    }
+
+    .subtitle{
+      color:#94a3b8;
+      font-size:18px;
+      margin-bottom:40px;
+      line-height:1.7;
+    }
+
+    /* Countdown */
+    .countdown{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+      margin-bottom:40px;
+    }
+
+    .time-box{
+      width:140px;
+      padding:25px 10px;
+      border:1px solid rgba(255,255,255,0.1);
+      background:rgba(255,255,255,0.03);
+      backdrop-filter:blur(10px);
+      border-radius:16px;
+      box-shadow:0 0 30px rgba(0,255,255,0.08);
+    }
+
+    .time{
+      font-size:48px;
+      font-weight:700;
+      color:#00f0ff;
+      font-family:'JetBrains Mono', monospace;
+    }
+
+    .label{
+      margin-top:10px;
+      font-size:12px;
+      letter-spacing:2px;
+      color:#94a3b8;
+    }
+
+    /* Terminal Box */
+    .terminal{
+      width:100%;
+      max-width:700px;
+      margin:0 auto;
+      background:rgba(255,255,255,0.03);
+      border:1px solid rgba(0,255,255,0.15);
+      border-radius:16px;
+      padding:20px;
+      text-align:left;
+      font-family:'JetBrains Mono', monospace;
+      color:#00ffd5;
+      font-size:14px;
+      line-height:2;
+      box-shadow:0 0 30px rgba(0,255,255,0.08);
+    }
+
+    .cursor{
+      display:inline-block;
+      width:10px;
+      background:#00ffd5;
+      animation:blink 1s infinite;
+    }
+
+    @keyframes blink{
+      50%{
+        opacity:0;
+      }
+    }
+
+    .footer{
+      margin-top:35px;
+      color:#64748b;
+      font-size:14px;
+      letter-spacing:2px;
+    }
+
+    @media(max-width:768px){
+
+      .time-box{
+        width:120px;
+      }
+
+      .time{
+        font-size:38px;
+      }
+
+      .subtitle{
+        font-size:16px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="grid"></div>
+  <div class="glow"></div>
+
+  <div class="container">
+
+    <div class="system-status">
+      SYSTEM INITIALIZATION IN PROGRESS...
+    </div>
+
+    <h1>
+      SOMETHING <span class="gradient">INTELLIGENT</span><br>
+      IS COMING ONLINE
+    </h1>
+
+    <p class="subtitle">
+      AI Software Engineering Portfolio<br>
+      Building intelligent systems, interfaces, and future-ready solutions.
+    </p>
+
+    <!-- Countdown -->
+    <div class="countdown">
+
+      <div class="time-box">
+        <div class="time" id="days">00</div>
+        <div class="label">DAYS</div>
+      </div>
+
+      <div class="time-box">
+        <div class="time" id="hours">00</div>
+        <div class="label">HOURS</div>
+      </div>
+
+      <div class="time-box">
+        <div class="time" id="minutes">00</div>
+        <div class="label">MINUTES</div>
+      </div>
+
+      <div class="time-box">
+        <div class="time" id="seconds">00</div>
+        <div class="label">SECONDS</div>
+      </div>
+
+    </div>
+
+    <!-- Terminal -->
+    <div class="terminal">
+      > initializing neural interface...<br>
+      > loading AI modules...<br>
+      > deploying portfolio systems...<br>
+      > calibrating future architecture...<br>
+      > awaiting public launch<span class="cursor">&nbsp;</span>
+    </div>
+
+    <div class="footer">
+      JOHN NWAOKOLO • AI SOFTWARE ENGINEER
+    </div>
+
+  </div>
+
+  <script>
+
+    // SET YOUR LAUNCH DATE HERE
+    const launchDate = new Date("2026-06-01T00:00:00").getTime();
+
+    function updateCountdown(){
+
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML = String(days).padStart(2,"0");
+      document.getElementById("hours").innerHTML = String(hours).padStart(2,"0");
+      document.getElementById("minutes").innerHTML = String(minutes).padStart(2,"0");
+      document.getElementById("seconds").innerHTML = String(seconds).padStart(2,"0");
+
+    }
+
+    setInterval(updateCountdown,1000);
+
+    updateCountdown();
+
+  </script>
+
+</body>
+</html>
