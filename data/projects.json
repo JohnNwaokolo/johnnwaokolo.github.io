@@ -1,0 +1,38 @@
+[
+  {
+    "title": "JDH Studio",
+    "label": "Founder project",
+    "description": "A technology studio website built and deployed by translating a founder-led vision into a clear digital product presence.",
+    "image": "image.png",
+    "github": "https://github.com/JohnNwaokolo/jdhstudio.co",
+    "live": "https://johnnwaokolo.github.io/jdhstudio.co/",
+    "stack": ["HTML", "CSS", "JavaScript", "Product development"]
+  },
+  {
+    "title": "Tannora",
+    "label": "Live product",
+    "description": "A live interface experiment shaped through rapid product development, with attention to visual direction, responsive layout, and product storytelling.",
+    "image": "assets/projects/tannora-hero.jpg",
+    "github": "https://github.com/JohnNwaokolo/tannora",
+    "live": "https://johnnwaokolo.github.io/tannora/",
+    "stack": ["HTML", "CSS", "JavaScript", "Product design"]
+  },
+  {
+    "title": "JDH Studio Leadflow",
+    "label": "Automation experiment",
+    "description": "An early exploration of turning a studio website into a useful business system, connecting presentation, lead capture, and automation thinking.",
+    "image": "assets/projects/leadflow-preview.svg",
+    "github": "https://github.com/JohnNwaokolo/jdhstudio-leadflow",
+    "live": "https://johnnwaokolo.github.io/jdhstudio-leadflow/",
+    "stack": ["HTML", "Automation", "Systems thinking"]
+  },
+  {
+    "title": "Noma House",
+    "label": "Client-style build",
+    "description": "A focused web build for a hospitality concept, exploring how atmosphere, hierarchy, and conversion can work together in a compact experience.",
+    "image": "assets/projects/noma-house-preview.jpg",
+    "github": "https://github.com/JohnNwaokolo/jdhstudio-noma-house",
+    "live": "https://johnnwaokolo.github.io/jdhstudio-noma-house/",
+    "stack": ["HTML", "CSS", "Responsive design"]
+  }
+]

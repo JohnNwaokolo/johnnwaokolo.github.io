@@ -1,0 +1,40 @@
+{
+  "name": "John Nwaokolo",
+  "headline": "Software Engineer | Builder | Founder, JDH Studio",
+  "location": "Nigeria",
+  "email": "",
+  "links": [
+    { "label": "github.com/JohnNwaokolo", "url": "https://github.com/JohnNwaokolo" },
+    { "label": "linkedin.com/in/johnnwaokolo", "url": "https://www.linkedin.com/in/johnnwaokolo" },
+    { "label": "x.com/_JohnNwaokolo", "url": "https://x.com/_JohnNwaokolo" },
+    { "label": "instagram.com/_JohnNwaokolo", "url": "https://www.instagram.com/_JohnNwaokolo" }
+  ],
+  "summary": "Software engineer, builder, researcher, and founder of JDH Studio. Building a strong foundation in Python, APIs, backend development, and Git while exploring agentic AI, AI coding agents, automation, tool calling, and prompt-to-product development.",
+  "experience": [
+    {
+      "role": "Founder and Product Builder",
+      "company": "JDH Studio",
+      "period": "2026 - Present",
+      "details": "Founded a technology studio for practical web products, automation experiments, and client-style digital builds. Built and deployed the JDH Studio website using an AI-assisted development workflow, then began studying the systems behind AI-powered products."
+    },
+    {
+      "role": "Independent Software Engineering Practice",
+      "company": "Personal projects and research",
+      "period": "2025 - Present",
+      "details": "Developing responsive web experiences and browser applications while strengthening Python, APIs, backend development, Git, product thinking, and software fundamentals through shipped projects."
+    }
+  ],
+  "education": [
+    {
+      "title": "Software Engineering Studies",
+      "institution": "Adeleke University, Ede",
+      "period": "Current"
+    }
+  ],
+  "skills": {
+    "Engineering": ["Python", "HTML", "CSS", "JavaScript", "Git", "Responsive design"],
+    "Backend and APIs": ["APIs", "Flask", "Backend development", "Data flow"],
+    "AI and automation": ["AI APIs", "Coding agents", "Tool calling", "Prompt-to-product development", "Automation"],
+    "Product": ["Interface design", "Product development", "Research", "Technical communication"]
+  }
+}

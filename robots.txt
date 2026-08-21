@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://johnnwaokolo.github.io/sitemap.xml

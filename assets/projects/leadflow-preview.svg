@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">JDH Studio LeadFlow preview</title>
+  <desc id="desc">A dark service matching interface with a lead qualification flow.</desc>
+  <rect width="1600" height="900" fill="#11100f"/>
+  <rect x="72" y="62" width="1456" height="776" rx="8" fill="#191817" stroke="#45352d"/>
+  <text x="128" y="142" fill="#f07843" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">JDH STUDIO / LEADFLOW</text>
+  <text x="128" y="258" fill="#f3eee7" font-family="Arial, sans-serif" font-size="70" font-weight="700">Find the right</text>
+  <text x="128" y="338" fill="#ffb06e" font-family="Arial, sans-serif" font-size="70" font-weight="700">next step.</text>
+  <text x="128" y="402" fill="#aaa29a" font-family="Arial, sans-serif" font-size="24">A lightweight service-matching assistant for small-business enquiries.</text>
+  <rect x="128" y="486" width="520" height="82" rx="4" fill="#f07843"/>
+  <text x="168" y="538" fill="#17100c" font-family="Arial, sans-serif" font-size="23" font-weight="700">Start the guided enquiry  →</text>
+  <rect x="930" y="178" width="450" height="480" rx="6" fill="#11100f" stroke="#5a4437"/>
+  <circle cx="1010" cy="250" r="14" fill="#f07843"/>
+  <text x="1050" y="258" fill="#f3eee7" font-family="Arial, sans-serif" font-size="24" font-weight="700">LeadFlow Guide</text>
+  <text x="982" y="350" fill="#aaa29a" font-family="Arial, sans-serif" font-size="20">What are you trying</text>
+  <text x="982" y="382" fill="#aaa29a" font-family="Arial, sans-serif" font-size="20">to build or improve?</text>
+  <rect x="982" y="440" width="342" height="54" rx="3" fill="#24211f" stroke="#60483a"/>
+  <text x="1004" y="475" fill="#f3eee7" font-family="Arial, sans-serif" font-size="17">A website for my business</text>
+  <rect x="982" y="520" width="342" height="54" rx="3" fill="#24211f" stroke="#60483a"/>
+  <text x="1004" y="555" fill="#f3eee7" font-family="Arial, sans-serif" font-size="17">An automation idea</text>
+</svg>
