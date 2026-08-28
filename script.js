@@ -24,6 +24,10 @@ const revealObserver = new IntersectionObserver((entries, observer) => {
 
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 
+setTimeout(() => {
+    document.querySelectorAll('.reveal:not(.visible)').forEach((el) => el.classList.add('visible'));
+}, 1500);
+
 async function loadProjects() {
     const container = document.querySelector('[data-projects]');
     if (!container) return;

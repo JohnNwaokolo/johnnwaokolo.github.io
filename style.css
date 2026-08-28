@@ -192,6 +192,7 @@ img { display: block; max-width: 100%; }
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 @media (max-width: 760px) {
+    .reveal { opacity: 1; transform: none; }
     .site-header { padding: 1rem 5vw; }
     .menu-toggle { display: block; }
     .site-nav { background: var(--surface); border-bottom: 1px solid var(--line); display: none; flex-direction: column; gap: 1.2rem; left: 0; padding: 1.5rem 5vw; position: absolute; right: 0; top: 100%; }
